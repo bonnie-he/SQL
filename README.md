@@ -19,6 +19,8 @@ The analysis focuses on real-world ad operations (ad ops) use cases such as:
 
 ## 📊 Dataset Overview
 
+This is a simulated data set. Link to source: https://www.kaggle.com/datasets/alperenmyung/social-media-advertisement-performance
+
 This project uses a SQLite database with the following tables:
 
 ### `ad_events`
@@ -84,37 +86,45 @@ Key columns:
 
 ## 🎯 Business Questions Explored
 
-### Funnel Analysis
+## Core Ad Performance Analysis
 
-* What is the impression → click → purchase conversion rate?
-* Where do users drop off in the funnel?
+### 1. What is the overall conversion funnel?
 
-### Campaign Performance
 
-* Which campaigns have the highest CTR?
-* Which campaigns have high spend but low conversions?
+### 2. Which ad platform has the highest engagement rate?
 
-### Ad & Platform Performance
 
-* Which ad platforms generate the highest engagement?
-* Which ad types perform best for conversions?
+### 3. Which ad type generates the most purchases?
 
-### Audience Segmentation
 
-* Which age groups convert best?
-* Do certain interests correlate with higher engagement?
-* How does gender affect ad performance across ad types?
+### 4. Which keywords drive the most clicks?
 
-### Keyword Effectiveness
 
-* Which keywords drive the most clicks?
-* Which keywords generate clicks but fail to convert?
+### 5. Which campaigns have the best CTR?
 
-### Advanced Behavioral Analysis
 
-* What is the last-touch interaction before purchase?
-* How do user behaviors change across repeated exposures?
-* How long does it take users to convert?
+### 6. Which campaigns have high impressions but zero purchases?
+
+
+## Audience & Segmentation Analysis
+
+### 7. Which age groups convert best?
+
+
+### 8. Which interests correlate with higher engagement?
+
+
+### 9. Are some ad platforms more effective for specific demographics?
+
+
+### 10. Which campaign performs best within each demographic segment?
+
+## User Journey and Conversion Time Analysis
+
+### 11. What is the typical user journey before purchase?
+
+
+### 12. How long does it take users to convert?
 
 ---
 
@@ -128,19 +138,10 @@ This project practices real-world SQL techniques used in analytics and ad ops:
 * Aggregations (COUNT, SUM, AVG)
 * CASE WHEN logic
 
-### Joins
-
-* INNER JOIN
-* LEFT JOIN
 
 ### Advanced SQL
 
-* Window functions:
-
-  * ROW_NUMBER()
-  * RANK()
-  * LAG()
-  * LEAD()
+* Window function
 
 * Common Table Expressions (CTEs)
 
