@@ -148,18 +148,3 @@ This project practices real-world SQL techniques used in analytics and ad ops:
 
 ---
 
-## 📈 Key Insights (Expected)
-
-From analysis, typical insights may include:
-
-* Certain ad platforms have high CTR but low conversion efficiency
-* Younger users may engage more but convert less
-* Some keywords drive high clicks but poor downstream performance
-* Campaign performance varies significantly by ad type
-* Repeated exposure can reduce time-to-conversion (behavioral effect)
-
----
-
-
-adtech-s
-```
