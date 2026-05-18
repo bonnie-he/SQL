@@ -134,9 +134,9 @@ The approach to this question is, first create a long list of interests from the
 
 ### 9. Are some ad platforms more effective for specific demographics?
 
-<img width="505" height="775" alt="Screen Shot 2026-05-17 at 11 12 54 PM" src="https://github.com/user-attachments/assets/3a3898e1-2970-4ca4-b525-af4502a89bea" />
+<img width="548" height="769" alt="Screen Shot 2026-05-18 at 1 07 57 PM" src="https://github.com/user-attachments/assets/f5f0f8e2-6286-4f60-935f-9cd76b3fe9f8" />
 
-
+Grouped by age group, we ranked ad platforms based on CTR to understand which channels is more effective at driving initial user attention. However, to complete the picture, we also included conversion rate (CVR) to measure downstream purchase efficiency. A higher CTR does not necessarily translate into a higher conversion rate. In other words, a platform might be better at generating clicks, but those clicks are not always driving purchases.
 
 ### 10. Which campaign performs best within each demographic segment?
 
