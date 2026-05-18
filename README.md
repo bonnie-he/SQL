@@ -140,8 +140,11 @@ Grouped by age group, we ranked ad platforms based on CTR to understand which ch
 
 ### 10. Which campaign performs best within each demographic segment?
 
-<img width="506" height="580" alt="Screen Shot 2026-05-17 at 11 14 34 PM" src="https://github.com/user-attachments/assets/9f2b8127-ddee-4f7d-a70e-17e7a3ed3879" />
-<img width="498" height="574" alt="Screen Shot 2026-05-17 at 11 20 20 PM" src="https://github.com/user-attachments/assets/08e28081-f2ae-4af4-9b8d-f14f1b2af93d" />
+<img width="537" height="775" alt="Screen Shot 2026-05-18 at 2 13 29 PM" src="https://github.com/user-attachments/assets/e7312350-121a-4e2a-b551-f1f8970e14d6" />
+
+<img width="524" height="576" alt="Screen Shot 2026-05-18 at 2 12 37 PM" src="https://github.com/user-attachments/assets/3c02b18d-8675-4b98-b0bb-dd4455c004cf" />
+
+Group by each segment (Gender x Age Group), the top campaign with the highest CTR and the higest conversion rate are shown, as well as the specific CTR and conversion rate. Note that some campaigns show a **100% conversion rate likely due to very low click volume**, which can be misleading. Therefore, both CTR and CVR are presented together to provide a more balanced view of campaign performance across segments.
 
 
 
@@ -150,8 +153,14 @@ Grouped by age group, we ranked ad platforms based on CTR to understand which ch
 ### 11. What is the typical user journey before purchase?
 <img width="503" height="368" alt="Screen Shot 2026-05-17 at 11 21 18 PM" src="https://github.com/user-attachments/assets/095d7f2a-3929-4cb0-ac94-4f7095886e42" />
 
+The typical user journey leading to a purchase (conversion) usually begins with an impression, followed by either a click or a like. A click reflects active intent to **explore the product further**, while a like signals **positive sentiment**. When these behaviors occur, they can be interpreted as early indicators of **strong buying intent**.
+
 ### 12. How long does it take users to convert?
-<img width="504" height="814" alt="Screen Shot 2026-05-17 at 11 22 14 PM" src="https://github.com/user-attachments/assets/4284b7ef-c3ae-4426-9401-6e7d003b4a48" />
+<img width="494" height="819" alt="Screen Shot 2026-05-18 at 3 05 50 PM" src="https://github.com/user-attachments/assets/98bde03a-b1cd-44ad-8653-d2b0e1942363" />
+
+Conversion here is defined by the time between first impression with the user and first purchase by the user. 
+
+Here we see conversion time at 25, 50 and 75 percentile of each gender and there is no significant difference across the group. About 25% of the purchasing users converted within the first 20 days after impression, 50% of the purchasing users converted within the first 45 days. 
 
 
 ---
