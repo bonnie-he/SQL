@@ -125,6 +125,8 @@ This is the top 10 campaigns with the lowest Cost per Acquisition, alongside wit
 ### 7. Which age groups convert best?
 <img width="481" height="397" alt="Screen Shot 2026-05-17 at 11 10 23 PM" src="https://github.com/user-attachments/assets/85be6c3c-8930-4656-b0ef-7b065c7ea20c" />
 
+Ranked by conversion rate, the strongest-performing age groups are 35–44, followed by 18–24 and 25–34. This suggests that both mid-career users with purchasing power and younger audiences with heavy social-media usage are driving the most efficient conversions.
+
 ### 8. Which interests correlate with higher engagement?
 <img width="509" height="437" alt="Screen Shot 2026-05-17 at 11 15 47 PM" src="https://github.com/user-attachments/assets/2db61c78-3112-4e71-9294-cacb3980651d" />
 
