@@ -26,19 +26,12 @@ It has the following tables:
 
 User-level interaction events with ads.
 
-Event types include:
-
-* impression
-* click
-* like
-* share
-* purchase
 
 Key columns:
 
 * user_id
 * ad_id
-* event_type
+* event_type (Impression, Click, Like, Share, Comment, Purchase)
 * timestamp
 
 ---
@@ -50,8 +43,8 @@ Metadata about each ad.
 Key columns:
 
 * ad_id
-* ad_platform
-* ad_type
+* ad_platform (Facebook, Instagram)
+* ad_type (Stories, Carousel, Images, Videos)
 * keyword
 * campaign_id
 
@@ -64,10 +57,10 @@ Campaign-level information.
 Key columns:
 
 * campaign_id
-* ad_id
 * campaign_name
 * start_date
 * end_date
+* budget
 
 ---
 
@@ -79,7 +72,7 @@ Key columns:
 
 * user_id
 * gender
-* age
+* age_group
 * interests
 
 ---
@@ -95,31 +88,36 @@ Key columns:
 
 Conversion rate here is defined as Purchases/Clicks. Engagement here includes click, like, comment, share. 
 
-An engagement rate of 17% is considered strong and reflects high ad quality. Both CTR and conversion rate are strong at 11.79% and 5.07%, which means the ad attracts users and the downstream experience converts them well.
+An engagement rate of 17% is considered strong and reflects high ad quality. Both CTR and conversion rate are strong at 11.79% and 5.07%, which means the **ad attracts users and the downstream experience converts them well**.
 
 
 ### 2. Which ad platform has the highest engagement rate?
 <img width="565" height="382" alt="Screen Shot 2026-05-17 at 11 04 19 PM" src="https://github.com/user-attachments/assets/d96677d6-a1d5-489c-a834-ca545f6ee588" />
 
 
-The data only contains two channels, Facebook and Instagram. While both channels' engagement rates are strong, Instagram performs slightly better.
+The data only contains two channels, Facebook and Instagram. While both channels' engagement rates are strong, **Instagram** performs slightly better.
 
 
 ### 3. Which ad type generates the most purchases?
 <img width="612" height="577" alt="Screen Shot 2026-05-18 at 11 20 59 AM" src="https://github.com/user-attachments/assets/7db9d46a-ea1e-464f-9a1a-a3d24816a4d3" />
 
 
-Stories generate the most purchases. However, each ad type's contribution to purchases is proportional to its contribution to impressions, which means purchase is mostly driven by exposure volume.
+Stories generate the most purchases. However, each ad type's contribution to purchases is proportional to its contribution to impressions, which means **purchase is mostly driven by exposure volume**.
 
 ### 4. Which keywords drive the most clicks?
 <img width="568" height="786" alt="Screen Shot 2026-05-17 at 11 05 10 PM" src="https://github.com/user-attachments/assets/b742d198-e23a-420e-bc20-709f168234b9" />
 
 
 ### 5. Which campaigns have the best CTR?
-<img width="560" height="502" alt="Screen Shot 2026-05-17 at 11 05 53 PM" src="https://github.com/user-attachments/assets/15ef5731-d1cb-4cfd-867c-5e86862add5f" />
+<img width="538" height="577" alt="Screen Shot 2026-05-18 at 12 04 20 PM" src="https://github.com/user-attachments/assets/e5379fa4-afb7-4817-8786-5a351127801e" />
+
+
+Whil the top 5 campaigns with the highest CTR all have CTR over 12%, about 1% to almost 2% higher than the baseline 11.07%, campaign 22 stands out for having significantly lower Cost per Mile (1000 Impressions) and lower Cost per Clcik than the other top performing campaigns.
 
 ### 6. Which campaigns have lower Cost Per Acquisition?
-<img width="560" height="533" alt="Screen Shot 2026-05-17 at 11 06 41 PM" src="https://github.com/user-attachments/assets/ff0ada3d-0b51-44b6-8ee6-9d1386fb1595" />
+<img width="490" height="761" alt="Screen Shot 2026-05-18 at 12 55 11 PM" src="https://github.com/user-attachments/assets/a5ba6310-31b7-4cee-b0c0-0d5f5fe9fe44" />
+
+This is the top 10 campaigns with the lowest Cost per Acquisition, alongside with their Cost per Click. We can easily compare their CPAs and CPCs with average CPA and CPC of all the campaigns and see that they perform significantly better than baseline performance.
 
 
 ## Audience & Segmentation Analysis
@@ -130,6 +128,7 @@ Stories generate the most purchases. However, each ad type's contribution to pur
 ### 8. Which interests correlate with higher engagement?
 <img width="509" height="437" alt="Screen Shot 2026-05-17 at 11 15 47 PM" src="https://github.com/user-attachments/assets/2db61c78-3112-4e71-9294-cacb3980651d" />
 
+The approach to this question is, first create a long list of interests from the all the user using resursive cte to strip each interest from the string, then aggregate clicks by interest.
 
 ### 9. Are some ad platforms more effective for specific demographics?
 
