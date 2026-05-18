@@ -93,15 +93,23 @@ Key columns:
 <img width="559" height="410" alt="Screen Shot 2026-05-17 at 10 58 04 PM" src="https://github.com/user-attachments/assets/fbbe6faa-fc94-450f-b665-4ec9b061b4e2" />
 
 
-Conversion rate here is defined as Purchases/Clicks. Clicks represent intention from users which is a better choice than impressions for conversion rate analysis.
+Conversion rate here is defined as Purchases/Clicks. Engagement here includes click, like, comment, share. 
+
+An engagement rate of 17% is considered strong and reflects high ad quality. Both CTR and conversion rate are strong at 11.79% and 5.07%, which means the ad attracts users and the downstream experience converts them well.
 
 
 ### 2. Which ad platform has the highest engagement rate?
 <img width="565" height="382" alt="Screen Shot 2026-05-17 at 11 04 19 PM" src="https://github.com/user-attachments/assets/d96677d6-a1d5-489c-a834-ca545f6ee588" />
 
 
+The data only contains two channels, Facebook and Instagram. While both channels' engagement rates are strong, Instagram performs slightly better.
+
+
 ### 3. Which ad type generates the most purchases?
-<img width="552" height="318" alt="Screen Shot 2026-05-17 at 11 00 26 PM" src="https://github.com/user-attachments/assets/60f1282e-3334-4ae1-977f-96114b40c140" />
+<img width="612" height="577" alt="Screen Shot 2026-05-18 at 11 20 59 AM" src="https://github.com/user-attachments/assets/7db9d46a-ea1e-464f-9a1a-a3d24816a4d3" />
+
+
+Stories generate the most purchases. However, each ad type's contribution to purchases is proportional to its contribution to impressions, which means purchase is mostly driven by exposure volume.
 
 ### 4. Which keywords drive the most clicks?
 <img width="568" height="786" alt="Screen Shot 2026-05-17 at 11 05 10 PM" src="https://github.com/user-attachments/assets/b742d198-e23a-420e-bc20-709f168234b9" />
